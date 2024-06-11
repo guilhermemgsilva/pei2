@@ -3,13 +3,13 @@ from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg)
 from matplotlib.figure import Figure
 from data import Deleted_Files 
 
-# primary_color = "#272727"
-# secondary_color = "#FFFFFF"
-# line_color = "#3e3e93"
-
-primary_color = "#fff"
-secondary_color = "#000"
+primary_color = "#272727"
+secondary_color = "#FFFFFF"
 line_color = "#3e3e93"
+
+# primary_color = "#fff"
+# secondary_color = "#000"
+# line_color = "#3e3e93"
 
 deleted_files = Deleted_Files()
 dados = dict(deleted_files.all_data())

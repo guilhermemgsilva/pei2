@@ -11,7 +11,7 @@ window.iconbitmap('./icone.ico')
 
 #theme
 window.tk.call('source', './Azure/azure.tcl')
-window.tk.call("set_theme", "light")
+window.tk.call("set_theme", "dark")
 
 #variables
 number_of_data_configured = tk.IntVar(value=5)
